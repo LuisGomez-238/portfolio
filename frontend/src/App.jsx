@@ -45,7 +45,7 @@ function App() {
         <img src={githubLogo} className='gitLink' />
         <label className='clickHere'>click here</label>
         </a>
-        <p>Here is a simulation of a Black Jack game that I built to teach 
+        <p>Here is a simulation of a Black Jack game that I built using JavaScript to teach 
           beginners a basic Black Jack strategy.</p>
       </div>
     </article>
