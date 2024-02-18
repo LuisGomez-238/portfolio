@@ -8,6 +8,7 @@ import nodeLogo from '../assets/nodeLogo.svg'
 import firebaseLogo from '../assets/firebaseLogo.svg'
 import linkedinLogo from '../assets/linkedinLogo.svg'
 import deskrScreenshot from '../assets/DeskrScreenshot.png'
+import blackJackScreenshot from '../assets/BlackJackScreenshot.png'
 
 function App() {
 
@@ -34,9 +35,18 @@ function App() {
         <img src={githubLogo} className='gitLink' />
         <label className='clickHere'>click here</label>
         </a>
-        <p>Deskr. is a tool for car dealerships that helps sales managers work multiple deals with multiple salesman without skipping a beat. Work as many deals as you want all in one place and communicate with your team with its built in chat option.
-
+        <p>Deskr. is a tool for car dealerships that helps sales managers 
+          work multiple deals with multiple salesman without skipping a beat. 
+          Work as many deals as you want all in one place and communicate with 
+          your team with its built in chat option.
         </p>
+        <img src={blackJackScreenshot} className='exampleScreenshot' />
+        <a href='https://github.com/LuisGomez-238/blackJackTrainerApp'>
+        <img src={githubLogo} className='gitLink' />
+        <label className='clickHere'>click here</label>
+        </a>
+        <p>Here is a simulation of a Black Jack game that I built to teach 
+          beginners a basic Black Jack strategy.</p>
       </div>
     </article>
   )
