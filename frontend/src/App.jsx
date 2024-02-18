@@ -7,6 +7,7 @@ import githubLogo from '../assets/githubLogo.svg'
 import nodeLogo from '../assets/nodeLogo.svg'
 import firebaseLogo from '../assets/firebaseLogo.svg'
 import linkedinLogo from '../assets/linkedinLogo.svg'
+import deskrScreenshot from '../assets/DeskrScreenshot.png'
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
       </a>
       <div>
         <h1 className='workTitle'>work.</h1>
-        <img className="exampleScreenshot"src="../assets/DeskrScreenshot.png"></img>
+        <img src={deskrScreenshot} className='exampleScreenshot' />
         <a href='https://github.com/LuisGomez-238/Deskr'>
         <img src={githubLogo} className='gitLink' />
         <label className='clickHere'>click here</label>
